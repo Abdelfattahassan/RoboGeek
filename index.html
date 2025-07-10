@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RoboGeek Academy - Kids Robotics & Coding</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo-container">
+                    <img src="images/logo.jpg" alt="RoboGeek Academy Logo" class="logo">
+                    <span class="logo-text">RoboGeek Academy</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#programs">Programs</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to RoboGeek Academy!</h1>
+                <p class="hero-subtitle">Where young minds build the future through robotics and coding</p>
+                <p class="hero-description">Join our exciting journey of discovery, creativity, and innovation. We make learning robotics and programming fun, engaging, and accessible for kids of all ages!</p>
+                <button class="cta-button" onclick="scrollToSection('registration')">Join Now</button>
+            </div>
+            <div class="hero-visual">
+                <div class="robot-icon">🤖</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About RoboGeek Academy</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>RoboGeek Academy is a premier educational institution dedicated to inspiring the next generation of innovators, engineers, and problem-solvers. We believe that every child has the potential to create amazing things with technology.</p>
+                    
+                    <h3>Our Vision</h3>
+                    <p>To empower young minds with the skills and confidence they need to thrive in our digital future. We envision a world where every child can code, build, and innovate with passion and purpose.</p>
+                    
+                    <h3>What Makes Us Different</h3>
+                    <ul class="features-list">
+                        <li>🎯 Age-appropriate curriculum designed by education experts</li>
+                        <li>🤝 Small class sizes for personalized attention</li>
+                        <li>🏆 Project-based learning with real-world applications</li>
+                        <li>👨‍🏫 Experienced instructors passionate about STEM education</li>
+                        <li>🎉 Fun, interactive environment that makes learning enjoyable</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <h2 class="section-title">Our Programs</h2>
+            <p class="section-subtitle">Tailored learning experiences for every age group</p>
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-icon">🧸</div>
+                    <h3>Little Builders (Ages 5-7)</h3>
+                    <p>Introduction to basic concepts through play-based learning. Kids explore simple robotics with colorful blocks and learn foundational problem-solving skills through fun activities and storytelling.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">🔧</div>
+                    <h3>Young Engineers (Ages 8-10)</h3>
+                    <p>Hands-on building and basic programming concepts. Students create their first robots, learn simple coding through visual programming languages, and develop logical thinking skills.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">💻</div>
+                    <h3>Code Creators (Ages 11-13)</h3>
+                    <p>Advanced robotics and text-based programming. Students dive deeper into coding languages, build complex robots, and work on exciting projects that combine creativity with technology.</p>
+                </div>
+                <div class="program-card">
+                    <div class="program-icon">🚀</div>
+                    <h3>Tech Innovators (Ages 14-17)</h3>
+                    <p>Professional-level projects and real-world applications. Students work on advanced robotics, AI concepts, app development, and prepare for future careers in technology and engineering.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <p class="section-subtitle">See our students in action!</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>🤖 Robot Building Workshop</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>💻 Coding Competition</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>🏆 Science Fair Winners</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>🎉 Graduation Ceremony</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>🔬 STEM Lab Session</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="placeholder-image">
+                        <span>🎮 Game Development Class</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Parents Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"My daughter absolutely loves RoboGeek Academy! She's learned so much about coding and robotics, and her confidence has grown tremendously. The instructors are amazing and really know how to engage kids. I highly recommend this program to any parent looking to give their child a head start in technology."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩</div>
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <span>Parent of Emma (Age 10)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"RoboGeek Academy has been a game-changer for my son. He was always interested in technology, but this program has given him the skills and knowledge to actually create things. He built his first robot last month and was so proud! The curriculum is well-structured and the learning environment is fantastic."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨</div>
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <span>Parent of Alex (Age 12)</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>"As a working mom, I was looking for an after-school program that would be both educational and fun. RoboGeek Academy exceeded all my expectations! My twins have been attending for 6 months now, and they can't stop talking about their projects. It's wonderful to see them so excited about learning."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍💼</div>
+                        <div class="author-info">
+                            <h4>Lisa Rodriguez</h4>
+                            <span>Parent of Maya & Diego (Age 8)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section id="registration" class="registration">
+        <div class="container">
+            <h2 class="section-title">Join RoboGeek Academy</h2>
+            <p class="section-subtitle">Start your child's journey into the exciting world of robotics and coding!</p>
+            <div class="form-container">
+                <form class="registration-form" id="registrationForm">
+                    <div class="form-group">
+                        <label for="childName">Child's Full Name</label>
+                        <input type="text" id="childName" name="childName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="childAge">Child's Age</label>
+                        <select id="childAge" name="childAge" required>
+                            <option value="">Select Age</option>
+                            <option value="5">5 years old</option>
+                            <option value="6">6 years old</option>
+                            <option value="7">7 years old</option>
+                            <option value="8">8 years old</option>
+                            <option value="9">9 years old</option>
+                            <option value="10">10 years old</option>
+                            <option value="11">11 years old</option>
+                            <option value="12">12 years old</option>
+                            <option value="13">13 years old</option>
+                            <option value="14">14 years old</option>
+                            <option value="15">15 years old</option>
+                            <option value="16">16 years old</option>
+                            <option value="17">17 years old</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="parentEmail">Parent's Email</label>
+                        <input type="email" id="parentEmail" name="parentEmail" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="parentPhone">Parent's Phone Number</label>
+                        <input type="tel" id="parentPhone" name="parentPhone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="program">Preferred Program</label>
+                        <select id="program" name="program" required>
+                            <option value="">Select Program</option>
+                            <option value="little-builders">Little Builders (Ages 5-7)</option>
+                            <option value="young-engineers">Young Engineers (Ages 8-10)</option>
+                            <option value="code-creators">Code Creators (Ages 11-13)</option>
+                            <option value="tech-innovators">Tech Innovators (Ages 14-17)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-button">Register Now</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (555) 123-ROBO</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p>+1 (555) 123-7626</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>123 Innovation Drive<br>Tech Valley, CA 94000</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>hello@robogeekacademy.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘 Facebook</a>
+                        <a href="#" class="social-link">📷 Instagram</a>
+                        <a href="#" class="social-link">🐦 Twitter</a>
+                        <a href="#" class="social-link">📺 YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/logo.jpg" alt="RoboGeek Academy Logo" class="footer-logo-img">
+                    <span>RoboGeek Academy</span>
+                </div>
+                <p>&copy; 2024 RoboGeek Academy. All rights reserved. Building the future, one robot at a time!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
